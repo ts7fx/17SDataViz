@@ -1,0 +1,46 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+	font-size: 0.95em;
+	text-align: center;
+}
+svg {
+  font: 10px sans-serif;
+}
+
+.title { 
+  font: 300 78px Helvetica Neue;
+  fill: #666;
+  text-anchor: end;
+}
+.year,
+.age {
+  text-anchor: middle;
+}
+
+.year {
+  fill: #fff;
+}
+rect {
+  fill-opacity: .6;
+  fill: #e377c2;
+}
+rect:first-child {
+  fill: #1f77b4;
+}
+
+.y.axis path {
+  display: none;
+}
+
+.y.axis line {
+  stroke: #fff;
+  stroke-opacity: .2;
+  shape-rendering: crispEdges;
+}
+
+.y.axis .zero line {
+  stroke: #000;
+  stroke-opacity: 1;
+}
